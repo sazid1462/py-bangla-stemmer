@@ -1,5 +1,12 @@
 # Rule Based Bengali Stemmer
 
+## Usage
+    from stemmer.stemmer import BengaliStemmer
+    
+    stemmer = BengaliStemmer()
+    stemmer.stem('জনপ্রিয়তা')  # 'জনপ্রি'
+    stemmer.stem(' সেটাই')    # 'সে'
+
 ## Rules Documentation
 #### `X + n :` 
 When X appears at the end of a word and word length is at least n, remove it

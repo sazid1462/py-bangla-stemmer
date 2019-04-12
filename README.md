@@ -1,9 +1,9 @@
-# Rule Based Bengali Stemmer
+# Rule Based Bangla Stemmer
 
 ## Usage
-    from stemmer.stemmer import BengaliStemmer
+    from stemmer.stemmer import BanglaStemmer
     
-    stemmer = BengaliStemmer()
+    stemmer = BanglaStemmer()
     stemmer.stem('জনপ্রিয়তা')  # 'জনপ্রি'
     stemmer.stem(' সেটাই')    # 'সে'
 

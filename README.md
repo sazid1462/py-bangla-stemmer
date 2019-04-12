@@ -1,7 +1,7 @@
 # Rule Based Bangla Stemmer
 
 ## Usage
-    from stemmer.stemmer import BanglaStemmer
+    from py_bangla_stemmer import BanglaStemmer
     
     stemmer = BanglaStemmer()
     stemmer.stem('জনপ্রিয়তা')  # 'জনপ্রি'

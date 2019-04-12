@@ -1,4 +1,4 @@
-from stemmer.rule_file_parser import RuleFileParser
+from si.pybs.stemmer.rule_file_parser import RuleFileParser
 
 
 class BengaliStemmer:

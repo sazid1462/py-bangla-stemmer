@@ -20,7 +20,7 @@ setup(
         'Intended Audience :: Developers',  # Define that your audience are developers
         'Natural Language :: Bengali',
         'Topic :: Text Processing :: Linguistic',
-        'License :: OSI Approved :: GPL License',  # Again, pick a license
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',  # Again, pick a license
         'Programming Language :: Python :: 3',  # Specify which pyhton versions that you want to support
     ],
 )

@@ -1,3 +1,3 @@
 include README.md
 include LICENSE
-include *.rules
+recursive-include resources *

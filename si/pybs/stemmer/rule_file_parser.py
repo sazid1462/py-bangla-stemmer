@@ -9,7 +9,7 @@ class RuleFileParser:
 
     def __init__(self, path="common.rules"):
         self.base_path = os.path.abspath(os.path.dirname(__file__))
-        self.resources_base_path = os.path.join(self.base_path, "../resources")
+        self.resources_base_path = os.path.join(self.base_path, "../../../resources")
 
         self.__replace_rule = {}
         self.__m_value = {}

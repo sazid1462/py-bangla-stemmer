@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 
 def readme():
@@ -9,14 +9,14 @@ def readme():
 setup(
     name='py-bangla-stemmer',  # How you named your package folder (MyLib)
     packages=['py_bangla_stemmer', 'py_bangla_stemmer.stemmer', 'py_bangla_stemmer.resources'],  # Chose the same as "name"
-    version='0.4.3',  # Start with a small number and increase it with every change you make
+    version='0.5.0',  # Start with a small number and increase it with every change you make
     license='GPL-3.0',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='Rule based Bengali Stemmer written in python',  # Give a short description about your library
     long_description=readme(),  # Give a short description about your library
     author='Sazedul Islam',  # Type in your name
     author_email='sazidmailbox@gmail.com',  # Type in your E-Mail
     url='https://github.com/sazid1462/py-bangla-stemmer',  # Provide either the link to your github or to your website
-    download_url='https://github.com/sazid1462/py-bangla-stemmer/archive/0.4.3.tar.gz',  # I explain this later on
+    download_url='https://github.com/sazid1462/py-bangla-stemmer/archive/0.5.0.tar.gz',  # I explain this later on
     keywords=['stemmer', 'bengali-stemmer', 'bangla-stemmer', 'rule-based-stemmer', 'nlp'],  # Keywords that define your package best
     install_requires=[  # I get to this in a second
     ],

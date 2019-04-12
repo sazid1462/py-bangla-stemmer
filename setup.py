@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='py-bangla-stemmmer',  # How you named your package folder (MyLib)
+    name='py-bangla-stemmer',  # How you named your package folder (MyLib)
     packages=['si', 'si.pybs', 'si.pybs.stemmer'],  # Chose the same as "name"
     version='v0.4.1',  # Start with a small number and increase it with every change you make
     license='GPL-3.0',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository

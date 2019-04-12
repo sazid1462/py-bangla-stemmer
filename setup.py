@@ -18,8 +18,9 @@ setup(
         'Development Status :: 3 - Alpha',
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
         'Intended Audience :: Developers',  # Define that your audience are developers
-        'Topic :: Software Development :: Natural Language Processing',
-        'License :: GPL License',  # Again, pick a license
+        'Natural Language :: Bengali',
+        'Topic :: Text Processing :: Linguistic',
+        'License :: OSI Approved :: GPL License',  # Again, pick a license
         'Programming Language :: Python :: 3',  # Specify which pyhton versions that you want to support
     ],
 )

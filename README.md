@@ -1,5 +1,8 @@
 # Rule Based Bangla Stemmer
 
+## Installation
+    pip install py_bangla_stemmer
+
 ## Usage
     from py_bangla_stemmer import BanglaStemmer
     
